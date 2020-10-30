@@ -53,8 +53,8 @@ header {
 }
 
 .right_area .profile-menu .drop-down-btn .drop-down {
-    color: white;
-    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .right_area .profile-menu .drop-down-links {
@@ -63,17 +63,22 @@ header {
     top: 44px;
     right: 20px;
     width: 100px;
-    padding: 5px;
     border-radius: 3px;
     display: none;
+}
+
+.right_area .profile-menu .drop-down-links ul li:hover {
+    background: rgb(75, 73, 73);
 }
 
 .right_area .profile-menu .drop-down-links ul li a {
     text-decoration: none;
     color: white;
+    display: block;
     font-size: 12px;
     font-weight: 550;
     padding: 5px;
+    padding-left: 10px;
 }
 
 .left_area h3 {
