@@ -40,16 +40,16 @@ header {
 
 .right_area .profile-menu .drop-down-btn {
     position: relative;
-    display: block;
     cursor: pointer;
-    padding: 0 5px;
+    align-items: center;
     background: rgb(59, 59, 59);
-    border: solid #000;
-    border-radius: 3px;
+    padding: 5px 10px 0px 10px;
+    border-radius: 50%;
+    border: solid rgb(59, 59, 59);
 }
 
 .right_area .profile-menu .drop-down-btn:active {
-    transform: translateY(1px);
+    border: solid thin #000;
 }
 
 .right_area .profile-menu .drop-down-btn .drop-down {

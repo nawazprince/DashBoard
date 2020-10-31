@@ -13,6 +13,6 @@ $(document).ready(function(){
 $('.drop-down-btn').click(function (e) { 
   e.preventDefault();
   $(this).siblings('.drop-down-links').slideToggle();
-  $(this).find('.drop-down').toggleClass("rotate");
+  //$(this).find('.drop-down').toggleClass("rotate");
 });
 })
