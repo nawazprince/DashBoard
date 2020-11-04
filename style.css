@@ -4,6 +4,26 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+    scrollbar-width: thin;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    /* background: #000; */
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border: solid gray;
+}
+
 body {
     overflow: hidden;
 }
@@ -58,8 +78,9 @@ header {
 
 .right_area .profile-menu .drop-down-links {
     position: fixed;
+    z-index: 1;
     background: rgb(59, 59, 59);
-    top: 44px;
+    top: 60px;
     right: 20px;
     width: 100px;
     border-radius: 3px;
@@ -116,6 +137,10 @@ header {
     height: calc(100% - 60px);
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.sidebar ::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar .menu {
